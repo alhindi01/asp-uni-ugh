@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>X University</h1>
+</div>
+<div class="row">
+    <div class="col-md-8">
+        <h2>Welcome to my dummy website</h2>
+        <p>
+            A sample application built as a final project "advanced internet computing"
+            <ul>
+                <li>Supports full-auth, only authorized users are able to view the pages.</li>
+                <li>
+                    Two models with a many-to-many relationship, converted to a one-to-many with a third model,
+                    There's a many-to-many relationship between the Student and Course entities,
+                    and the Enrollment entity functions as a many-to-many join table.</li>
+                <li>
+                    There's a many-to-many relationship
+                    between the Instructor and Course entities,
+                    and the CourseAssignment entity functions as a many-to-many join table.<li/>
+
+                <li>Filter functionality when you press select, in the instructors page, 
+                it filters courses taught by the instructor, 
+                and if you click select on the courses generated, it filters the students taking that course.</li>
+                <li>Calculated fields when you click the about page, stats regarding students.</li>
+                
+            </ul>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h1>Main Reference</h1>
+        <h2>Built by following ASP.NET CORE official docs...</h2>
+        <p>You can build the application by following the steps in a series of tutorials.</p>
+        <p><a class="btn btn-default" href="https://docs.asp.net/en/latest/data/ef-mvc/intro.html">See the tutorial &raquo;</a></p>
+    </div>
+
+</div>
